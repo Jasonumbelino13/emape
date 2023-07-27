@@ -1,0 +1,184 @@
+body {
+    font-family: Optima, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#vendedor {
+    width: 70%;
+}
+
+#contrato {
+    width: 26%;
+    transform: translate(440px, -1597.5px);
+}
+
+
+#bairro {
+    width: 50%;
+}
+
+#prod {
+    width: 25%;
+}
+
+#cnpj {
+    width: 25%;
+    transform: translate(180px, -67px);
+    
+}
+#inscricao-estadual {
+    width: 20%;
+    transform: translate(360px, -135px);
+    
+}
+#cep {
+    width: 15%;
+    transform: translate(509px, -203px);
+    
+}
+
+#endereco {
+    transform: translate(0px, -203px);
+    
+}
+
+#bairro {
+    width: 50%;
+    transform: translate(0px, -203.9px);
+    
+}
+
+#mun {
+    width: 46%;
+    transform: translate(328px, -269.9px);
+    
+}
+
+#local-entrega {
+    transform: translate(0px, 5px);
+    
+}
+
+#descricao {
+    width: 100%;
+    transform: translate(0px, -265px);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#quantidade-produto {
+    width: 100%;
+    transform: translate(0px, -265px);     
+}
+
+#valor-saco {
+    width: 100%;
+    transform: translate(0px, -265px);    
+}
+
+#valor-total {
+    width: 100%;
+    transform: translate(0px, -265px);    
+}
+
+#bcempresa {
+    width: 100%;
+    transform: translate(0px, -280px);    
+}
+
+#bccnpj {
+    width: 48%;
+    transform: translate(0px, -280px);    
+}
+
+#bcie {
+    width: 48%;
+    transform: translate(312px, -348px);    
+}
+
+#bcendereco {
+    width: 48%;
+    transform: translate(0px, -348px);    
+}
+
+#bcbairro {
+    width: 26%;
+    transform: translate(312px, -415px);    
+}
+
+#bccep {
+    width: 18%;
+    transform: translate(492px, -483px);    
+}
+
+#bcnome {
+    width: 48%;
+    transform: translate(0px, -548px);    
+}
+
+#bcbanco {
+    width: 48%;
+    transform: translate(312px, -616px);    
+}
+
+#bcag {
+    width: 30%;
+    transform: translate(0px, -625px);    
+}
+
+#bcconta {
+    width: 30%;
+    transform: translate(211px, -693px);    
+}
+
+#bccpf {
+    width: 30%;
+    transform: translate(420px, -760px);    
+}
+
+#tipo-frete {
+    width: 100%;
+    transform: translate(0px, -760px);    
+}
+
+#data {
+    width: 30%;
+    transform: translate(0px, -780px);    
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transform: translate(200px, -780px);
+}
+
+#fixed-data {
+    margin-top: 20px;
+}
+
+#fixed-data h2 {
+    margin-bottom: 10px;
+}

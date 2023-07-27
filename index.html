@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://uploaddeimagens.com.br/images/004/549/222/full/EMAPE.png?1689720598">
+    <title>Contrato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <STYLE TYPE="text/css">
+        BODY {background-image: url(https://uploaddeimagens.com.br/images/004/556/728/full/emap.png?1690304719); background-repeat: no-repeat; background-position: 200px 200px; background-attachment: fixed;}
+    </STYLE>
+    <h1>Contrato de Compra e Venda</h1><img style="transform: translate(-50px, -53px);" width="110px" src="https://uploaddeimagens.com.br/images/004/549/222/full/EMAPE.png?1689720598" hspace="20">
+    <form id="contract-form" onsubmit="return false">
+        <label for="vendedor">Nome do Vendedor:</label>
+        <input type="text" id="vendedor" required>
+
+        
+
+        <label for="prod" style="transform: translate(0px, 0px);">Produto:</label>
+        <input type="text" id="prod" required>
+
+        <label for="cnpj" style="transform: translate(180px, -65px);">CNPJ:</label>
+        <input type="text" id="cnpj" required>
+
+        <label for="inscricao-estadual" style="transform: translate(360px, -132px);">Inscrição Estadual:</label>
+        <input type="text" id="inscricao-estadual" required>
+
+        <label for="cep" style="transform: translate(510px, -199px);">CEP:</label>
+        <input type="text" id="cep" required>
+
+        <label for="endereco" style="transform: translate(0px, -199px);">Endereço:</label>
+        <input type="text" id="endereco" required>
+
+        <label for="bairro" style="transform: translate(0px, -199px);">Bairro:</label>
+        <input type="text" id="bairro" required>
+
+        <label for="mun" style="transform: translate(330px, -265px);">Municipio:</label>
+        <input type="text" id="mun" required>
+
+        <div id="fixed-data" style="transform: translate(0px, -265px);">
+            <p><strong>COMPRADOR: EMAPE TERCEIRA GERAÇÃO AVICOLA LTDA</strong></p>
+            <p>CNPJ: 12.345.678/0001-90</p>
+            <p>Inscrição Estadual: 12345678</p>
+            <p>Endereço: Rua da Empresa, 123</p>
+            <p>CEP: 12345-678</p>
+        </div>
+        <!-- Caixa de texto 
+        <label for="descricao" style="transform: translate(0px, -265px);"><strong>Descrição da 1ª Gláusula: </strong></label>
+        <textarea rows="8" style="width: 45em" wrap="hard" id="descricao" name="descricao"  ></textarea>
+        
+        <label for="local-entrega" style="transform: translate(0px, -0px);">Local de Entrega:</label>
+        <input type="text" id="local-entrega" required>-->
+
+        <label for="descricao" style="transform: translate(18px, -260px);">Milheto</label>
+        <input style="transform: translate(-295px, -290px);" type="radio" id="descricao" value="UMIDADE MAX 13% / IMPUREZA MAX 4% / ARDIDO MAX 6% / QUEBRADOS MAX 10%
+        BROT 1% / CHO MAX 1% / MOF 0% / FERM MAX 0% / CONT MAX 0% / CARU MAX 1% / 
+        DENS 730 / MILHETO PADRÃO: RACÃO ANIMAL / SAFRA 2023." name="graos">
+        
+        <label for="descricao" style="transform: translate(18px, -260px);">Milho</label>
+        <input style="transform: translate(-295px, -290px);" type="radio" id="descricao" value="UMIDADE MAX 14% / IMPUREZA MAX 2% / ARDIDO MAX 6% / QUEBRADOS MAX 10%
+        BROT 1% / CHO MAX 1% / MOF 0% / FERM MAX 0% / CONT MAX 0% / CARU MAX 1%
+        DENS 730 / MILHO PADRÃO: RACÃO ANIMAL / SAFRA 2023." name="graos">
+
+        <label for="descricao" style="transform: translate(18px, -260px);">Soja</label>
+        <input style="transform: translate(-295px, -290px);" type="radio" id="descricao" value="UMIDADE MAX 14% / IMPUREZA MAX 2% / ARDIDO MAX 6% / QUEBRADOS MAX 30%
+        CHO MAX 1% / MOF 1% / FERM MAX 1% / VERD MAX 8% / CONT MAX 1%
+        DENS 730 / SOJA PADRÃO: RACÃO ANIMAL / SAFRA 2023." name="graos">
+
+        <label for="descricao" style="transform: translate(18px, -270px);">Sorgo</label>
+        <input style="transform: translate(-295px, -298px);" type="radio" id="descricao" value="UMIDADE MAX / IMPUREZA MAX / ARDIDO MAX / QUEBRADOS MAX
+        BROT / CHO MAX / MOV 0% / FERM MAX / VERD MAX / CONT MAX / CARU MAX
+        DENS 730 / SORGO PADRÃO: RACÃO ANIMAL / SAFRA 2023." name="graos">
+        
+
+        <label for="quantidade-produto" style="transform: translate(0px, -265px);">Quantidade do Produto:</label>
+        <input type="text" id="quantidade-produto" required>
+
+        <label for="valor-saco" style="transform: translate(0px, -265px);">Preço por Saco:</label>
+        <input type="text" id="valor-saco" required>
+
+        <label for="valor-total" style="transform: translate(0px, -265px);">Valor Total:</label>
+        <input type="text" id="valor-total" required>
+
+        <!-- DADOS BANCARIO -->
+        <h3 style="transform: translate(250px, -265px);">Dados Bancario</h3>
+        <label for="bcempresa" style="transform: translate(0px, -280px);">Nome da Empresa:</label>
+        <input type="text" id="bcempresa" required>
+
+        <label for="bccnpj" style="transform: translate(0px, -280px);">Cnpj:</label>
+        <input type="text" id="bccnpj" required>
+
+        <label for="bcie" style="transform: translate(312px, -345px);">Inscrição Estadual:</label>
+        <input type="text" id="bcie" required>
+
+        <label for="bcendereco" style="transform: translate(0px, -345px);">Endereço:</label>
+        <input type="text" id="bcendereco" required>
+
+        <label for="bcbairro" style="transform: translate(312px, -410px);">Cidade e Estado:</label>
+        <input type="text" id="bcbairro" required>
+
+        <label for="bccep" style="transform: translate(490px, -475px);">Cep:</label>
+        <input type="text" id="bccep" required>
+
+        <label for="contrato" style="transform: translate(440px, -1597px);">Contrato:</label>
+        <input type="text" id="contrato" required>
+
+        <label for="bcnome" style="transform: translate(0px, -550px);">Nome do Recebedor:</label>
+        <input type="text" id="bcnome" required>
+
+        <label for="bcbanco" style="transform: translate(310px, -618px);">Nome do Banco:</label>
+        <input type="text" id="bcbanco" required>
+
+        <label for="bcag" style="transform: translate(0px, -620px);">Nº da Agência:</label>
+        <input type="text" id="bcag" required>
+
+        <label for="bcconta" style="transform: translate(210px, -685px);">Nº da Conta:</label>
+        <input type="text" id="bcconta" required>
+
+        <label for="bccpf" style="transform: translate(418px, -750px);">CPF:</label>
+        <input type="text" id="bccpf" required>
+
+        <label for="tipo-frete" style="transform: translate(0px, -760px);" >Tipo de Frete:</label>
+        <input type="text" id="tipo-frete" required>
+
+        <label for="data" style="transform: translate(0px, -760px);">Data:</label>
+        <input type="date" id="data" required>
+
+        <button onclick="printContract()">Imprimir Contrato</button>
+    </form>
+    <footer class="rodape">
+        <p class="ult-paragrafo" style="transform: translate(150px, -685px);">Copyright &copy; | Jason Umbelino</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
